@@ -18,7 +18,7 @@ LED1 GPIO12
 LED2 GPIO02  
 ```
 
-RS485 - Modbus 
+RS485 - Modbus SDM120 baudrate->2400 
 
 ```
 modbus = uModBusSerial(1, baudrate=2400, pins=(27, 26),ctrl_pin=25) #,ctrl_pin=25
