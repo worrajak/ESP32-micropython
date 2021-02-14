@@ -45,3 +45,8 @@ softI2C
 ```
 i2c = SoftI2C(scl=machine.Pin(15), sda=machine.Pin(4))  # heltec 5/4
 ```
+
+
+![ScreenShot](https://github.com/worrajak/ESP32-micropython/blob/main/IMG_9148.jpg?raw=true)  
+
+![ScreenShot](hhttps://github.com/worrajak/ESP32-micropython/blob/main/IMG_9153.jpg?raw=true)  
