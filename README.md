@@ -19,7 +19,9 @@ LED2 GPIO02
 ```
 
 RS485 - Modbus 
+
 ```
+modbus = uModBusSerial(1, baudrate=2400, pins=(27, 26),ctrl_pin=25) #,ctrl_pin=25
 RS485_DIR GPIO25
 RS485_RX  GPIO26
 RS485_TX  GPIO27
