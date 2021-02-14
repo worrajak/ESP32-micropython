@@ -43,7 +43,7 @@ MISO -> 19
 MOSI -> 23
 ```
 
-SPI uLora micropython -> 
+SPI uLora micropython -> Lolin32
 ```
 LORA_CS = const(18)
 LORA_SCK = const(5)
@@ -51,6 +51,16 @@ LORA_MOSI = const(27)
 LORA_MISO = const(19)
 LORA_IRQ = const(26)
 LORA_RST = const(14)
+```
+
+SPI uLora micropython -> #Blackboard 
+```
+LORA_CS = const(16)  #18
+LORA_SCK = const(18)  #5
+LORA_MOSI = const(23)  #27 lolin32 connect
+LORA_MISO = const(19)
+LORA_IRQ = const(15)   #26
+LORA_RST = const(4)   #14
 ```
 
 softI2C
