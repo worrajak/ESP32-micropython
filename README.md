@@ -13,6 +13,18 @@ c:\>python esptool.py --chip esp32 --port COM5 write_flash -z 0x1000 esp32-idf3-
 
 Black box wire connect
 
+```
+LED1 GPIO12
+LED2 GPIO02  
+```
+
+RS485 - Modbus 
+```
+RS485_DIR GPIO25
+RS485_RX  GPIO26
+RS485_TX  GPIO27
+```
+
 SPI arduino IDE 
 
 ```
