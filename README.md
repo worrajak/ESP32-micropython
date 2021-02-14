@@ -11,3 +11,15 @@ install ESP32 firmware
 c:\>python esptool.py --chip esp32 --port COM5 write_flash -z 0x1000 esp32-idf3-20210202-v1.14.bin 
 
 
+
+
+wire connect
+
+
+const lmic_pinmap lmic_pins = {
+    .nss = 16, 
+    .rxtx = LMIC_UNUSED_PIN,
+    .rst = 4,
+    .dio = {/*dio0*/ 15, /*dio1*/ 13, /*dio2*/ LMIC_UNUSED_PIN}
+};
+
