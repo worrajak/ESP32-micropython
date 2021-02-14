@@ -1,10 +1,10 @@
 # ESP32-micropython
 
-  install anaconda python -> download from website 
+  - install anaconda python -> download from website 
 
-  change firmware -> esp32-idf3-20210202-v1.14.bin to newest file 
+  - change firmware -> esp32-idf3-20210202-v1.14.bin to newest file 
 
-  change com port -> 
+  - change com port -> 
 
 install ESP32 firmware 
 ```
